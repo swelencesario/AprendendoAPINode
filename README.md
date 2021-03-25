@@ -2,7 +2,7 @@
 
 <p>O objetivo deste repositório é guardar o código da parte prática do curso de API em Node</p>
 
-<h1>Conceitos estudados até o último commit:<h1>
+<h1>Conceitos estudados até o último commit:</h1>
   
   <li>Conceitos Node</li>
   <li>O que é API Restful</li>
