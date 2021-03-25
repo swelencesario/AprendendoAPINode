@@ -1,8 +1,8 @@
-<h2>Aprendendo API em Node</h2>
+<h1>Aprendendo API em Node</h1>
 
 <p>O objetivo deste repositório é guardar o código da parte prática do curso de API em Node</p>
 
-<h1>Conceitos estudados até o último commit:</h1>
+<h2>Conceitos estudados até o último commit:</h2>
   
   <li>Conceitos Node</li>
   <li>O que é API Restful</li>
