@@ -17,7 +17,7 @@ function logRequests (request, response, next){
     console.timeEnd(logLabel);
 }
 
-function validateProject(request, response, next){
+function validateProjectId(request, response, next){
     const { id } = request.params;
 
     if(!isUuid(id)){
@@ -26,6 +26,7 @@ function validateProject(request, response, next){
     return next();
 }
 app.use(logRequests);
+app.use("/projects/:id", validateProjectId)
 
 app.get('/projects', (request, response) => {
     const { title } = request.query;
